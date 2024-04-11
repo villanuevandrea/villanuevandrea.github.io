@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: '',
+    linkedin: 'villanuevandreai',
     twitter: '',
     mastodon: '',
     researchGate: '',
