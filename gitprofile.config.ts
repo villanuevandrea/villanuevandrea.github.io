@@ -80,44 +80,44 @@ const CONFIG = {
       'https://villanuevandrea.github.io/pdfs/villanuevaCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PCR', 'Bioinformatics', 'Teaching'
+    'hands on experience in patient care', '68 WPM', 'Academic Writing', 'Billingual'
   ],
   experiences: [
     {
-      company: 'CSU Stanislaus',
-      position: 'Assistant Professor',
-      from: 'August 2022',
+      company: 'Golden Modesto Care Center',
+      position: 'Certified Nursing Assistance',
+      from: 'July 2023',
       to: 'Present',
-      companyLink: 'https://www.csustan.edu',
+      companyLink: 'https://goldenmodestohc.com',
     },
     {
-      company: 'CSU Fresno',
-      position: 'Assistant/Associate Professor',
-      from: 'August 2015',
-      to: 'August 2022',
-      companyLink: 'https://www.fresnostate.edu',
+      company: 'Falcon's Lair',
+      position: 'Prep Cook/Food Runner',
+      from: 'March 2023',
+      to: 'June 2023',
+      companyLink: 'https://relicincorporated.com/falcons-lair/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Deans List',
+      body: '3.5 GPA or higher',
+      year: '2020-2024',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'CSU Fresno',
-      degree: 'MBA',
+      institution: 'CSU Stanislaus',
+      degree: 'BA in Biological Sciences',
       from: '2020',
       to: '2024',
     },
     {
-      institution: 'University of Texas at San Antonio',
-      degree: 'PhD',
-      from: '2007',
-      to: '2012',
+      institution: '',
+      degree: '',
+      from: '',
+      to: '',
     },
   ],
   publications: [
