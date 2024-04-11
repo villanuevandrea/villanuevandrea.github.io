@@ -80,7 +80,7 @@ const CONFIG = {
       'https://villanuevandrea.github.io/pdfs/villanuevaCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'hands on experience in patient care', '68 WPM', 'Academic Writing', 'Billingual'
+    'Hands-on Patient Care Experience', '68 WPM', 'Academic Writing', 'Billingual'
   ],
   experiences: [
     {
