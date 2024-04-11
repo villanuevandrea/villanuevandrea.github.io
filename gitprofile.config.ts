@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://tvanlaar.github.io/pdfs/villanuevaCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://villanuevandrea.github.io/pdfs/villanuevaCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PCR', 'Bioinformatics', 'Teaching'
