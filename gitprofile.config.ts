@@ -91,7 +91,7 @@ const CONFIG = {
       companyLink: 'https://goldenmodestohc.com',
     },
     {
-      company: 'Falcon's Lair',
+      company: 'Falcons Lair',
       position: 'Prep Cook/Food Runner',
       from: 'March 2023',
       to: 'June 2023',
@@ -104,6 +104,12 @@ const CONFIG = {
       body: '3.5 GPA or higher',
       year: '2020-2024',
       link: '',
+    },
+    {
+      name: 'Certified Nursing Assistant ',
+      body: 'CNA License',
+      year: '2023',
+      link: 'https://cvl.cdph.ca.gov/ListPage.aspx',
     },
   ],
   educations: [
