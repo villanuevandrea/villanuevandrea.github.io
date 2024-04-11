@@ -100,12 +100,6 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Deans List',
-      body: '3.5 GPA or higher',
-      year: '2020-2024',
-      link: '',
-    },
-    {
       name: 'Certified Nursing Assistant ',
       body: 'CNA License',
       year: '2023',
