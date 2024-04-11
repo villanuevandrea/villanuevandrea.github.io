@@ -1,0 +1,57 @@
+---
+name: Andrea
+surname: Villanueva
+#position: "Professor"
+#profilepic:
+pronouns: she/her
+address: "708 Sawtooth St Manteca CA"
+phone: (510)878-0945
+#www: mariecurie.com
+email: "andreaaaiv.19@gmail.com"
+#twitter: mariecurie
+github: villanuevandrea
+#linkedin: mariecurie
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+ * 500+ hours of patient care experience as certified nursing assistant
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Details,
+  "BA in Biological Sciences", "Expected Fall 2024", "California State University Stanislaus", "Turlock, California", list("Course work in Medical Microbiology, Human Anatomy, Human Physiology, Bioinformatics", "4.84 GPA", "Summa Cum Laude")
+  
+) %>%
+  detailed_entries(Degree, Year, Institution, Where, Details)
+```
+
+# Work experience
+
+```{r}
+tribble(
+  ~ Title, ~ Dates, ~ Company, ~ Where, ~ Details,
+  "Certified Nursing Assistant", "July 2023 - Present", "Golden Modesto Care Center", "Modesto, California", list("Assisting residents perform activities of daily living", "Report of observations to nurses", "Providing physical and emotional support to residents and family members"),
+  "Prep Cook/Food Runner", "March 2023 - June 2023", "Falcon's Lair", "Ripon, California", list("Fast paced food expedition to guests", "Prepared and made salads, seafood dishes, charcuterie, and pizza"),
+  "Food and Beverage Assistant", "December 2021 - August 2022", "Great Wolf Lodge", "Manteca, California", list("Placed orders and handed food out to hotel guests as customer service attendant", "Moved between food and beverage outlets, including fast food shacks, ice creamery, and convenience store"),
+  "Retail Service Member", "June 2021 - December 2021", "Panera Bread", "Manteca, California", list("Bussed tables, took orders in person/ on phone/in drive thru as customer service attendant", "Bagged orders and checked for completeness before expediting orders"),
+  "Cashier", "July 2019 - April 2021", "The Habit Burger Grill", "Manteca, California", list("Specialized in customer service (greeting guests, taking orders)", "Advanced to Level 3 cashier: working drive thru, broiler, fryer and cook line, assisting cooks during peak hours while taking orders and payments")
+  
+) %>%
+  detailed_entries(Title, Dates, Company, Where, Details)
+```
+
